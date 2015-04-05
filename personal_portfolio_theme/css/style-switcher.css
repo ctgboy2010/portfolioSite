@@ -1,0 +1,94 @@
+
+#style-switcher {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: fixed;
+    right: -222px;
+    top: 150px;
+    width: 222px;
+    z-index: 1000;
+}
+#toggle-switcher {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #fff;
+    border-bottom-left-radius: 25px;
+    border-color: #ddd -moz-use-text-color #ddd #ddd;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-top-left-radius: 25px;
+    border-width: 1px medium 1px 1px;
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    left: -50px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    width: 50px;
+}
+#toggle-switcher [class*="fa"] {
+    color: #38a5db;
+    font-size: 32px;
+    line-height: 50px;
+}
+#style-switcher h1 {
+    color: #666;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    margin: 0 0 5px -10px;
+    text-align: center;
+}
+#style-switcher ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+#style-switcher ul li {
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 40px;
+    margin: 10px 10px 0 0;
+    width: 40px;
+}
+#style-switcher ul li#cyan2 {
+    background: none repeat scroll 0 0 #8aaad9;
+}
+#style-switcher ul li#cyan {
+    background: none repeat scroll 0 0 #74c7d5;
+}
+#style-switcher ul li#red {
+    background: none repeat scroll 0 0 #f05557;
+}
+#style-switcher ul li#orange {
+    background: none repeat scroll 0 0 #f78f39;
+}
+#style-switcher ul li#green {
+    background: none repeat scroll 0 0 #21b799;
+}
+#style-switcher ul li#grass {
+    background: none repeat scroll 0 0 #a2ce7e;
+}
+#style-switcher ul li#purple {
+    background: none repeat scroll 0 0 #9661a8;
+}
+#style-switcher ul li#pink {
+    background: none repeat scroll 0 0 #f1678d;
+}
+#style-switcher ul li#light-green {
+    background: none repeat scroll 0 0 #36d9c3;
+}
+#style-switcher ul li#blue {
+    background: none repeat scroll 0 0 #38a5db;
+}
+#style-switcher ul li#yellow {
+    background: none repeat scroll 0 0 #fbdf29;
+}
+#style-switcher ul li#yellow-orange {
+    background: none repeat scroll 0 0 #fac928;
+}
